@@ -1,0 +1,314 @@
+.menu-main h1 {
+  background-image: url(./assets/menu-bg.jpg);
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+  margin: 0;
+  padding: 1.6em 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.menu-main h2 {
+  text-align: center;
+  color: #cc0d2e;
+  font-weight: 900;
+  font-size: 50px;
+  margin: 0;
+  padding-top: 1.6em;
+  padding-bottom: 0.5em;
+}
+.menu-main p {
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+  padding: 0 14em;
+}
+.dine-in {
+  cursor: pointer;
+  font-family: Faro;
+  font-weight: 600;
+  width: 500px;
+  border: none;
+  color: #fff;
+  font-size: 26px;
+  background-color: #65357e;
+  border-radius: 100px;
+  padding: 0.5em 0;
+  margin: 2em 0;
+  transition: all ease-in-out 0.2s;
+}
+.dine-in:hover {
+  transition: all ease-in-out 0.2s;
+  background-color: #fa8003;
+  color: black;
+}
+.promo {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4em;
+  top: 0;
+  z-index: -1;
+}
+.menu-list {
+  display: flex;
+  background-color: #fff;
+}
+.menu-list h3 {
+  font-size: 45px;
+  font-weight: 900;
+}
+.sidebar {
+  position: sticky;
+  padding: 0 3em;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+}
+.sidebar h3 {
+  font-size: 24px;
+}
+.sidebar-btn {
+  cursor: pointer;
+  font-family: Faro;
+  font-weight: 700;
+  border: none;
+  margin: 0.2em 0;
+  padding: 0.2em 0;
+  background-color: #722282;
+  color: #fff;
+  font-size: 20px;
+  width: 260px;
+  border-radius: 6px;
+  transition: all ease-in-out 0.2s;
+}
+.sidebar-btn:hover {
+  transition: all ease-in-out 0.2s;
+  background-color: #451d4d;
+}
+.menu-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.add-order-btn {
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  color: #fff;
+  font-family: Faro;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  transition: all ease-in-out 0.2s;
+}
+.add-order-btn:hover {
+  transition: all ease-in-out 0.2s;
+  background-color: rgb(121, 0, 0);
+}
+.each-card img {
+  width: 320px;
+  height: auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .menu-main h2 {
+    font-size: 40px;
+  }
+  .menu-main p {
+    font-size: 25px;
+  }
+  .promo img {
+    width: 600px;
+    height: auto;
+  }
+  .each-card {
+    width: 300px !important;
+  }
+  .each-card img {
+    width: 250px !important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .each-card {
+    width: 280px !important;
+  }
+  .each-card img {
+    width: 240px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .menu-main h1 {
+    font-size: 40px;
+    padding: 1.2em 0;
+  }
+  .menu-main h2 {
+    font-size: 35px;
+  }
+  .menu-main p {
+    font-size: 25px;
+    padding: 0 8em;
+  }
+  .promo img {
+    width: 500px;
+  }
+  .each-card {
+    width: 280px !important;
+  }
+  .each-card img {
+    width: 240px !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .promo img {
+    width: 400px;
+  }
+  .dine-in {
+    width: 400px;
+    font-size: 23px;
+    padding: 0.5em 0;
+  }
+  .each-card {
+    width: 250px !important;
+  }
+  .each-card img {
+    width: 230px !important;
+  }
+  .sidebar {
+    padding: 0 1.5em;
+  }
+  .sidebar h3 {
+    font-size: 22px;
+  }
+  .sidebar-btn {
+    font-size: 16px;
+    width: 240px;
+    border-radius: 4px;
+  }
+  .padding-left {
+    padding-left: 1.5em !important;
+  }
+  .menu-list h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 650px) {
+    .menu-main h1 {
+        font-size: 30px;
+        padding: 1.2em 0;
+      }
+      .menu-main h2 {
+        font-size: 30px;
+      }
+      .menu-main p {
+        font-size: 22px;
+        padding: 0 4em;
+      }
+    .promo img {
+      width: 300px;
+    }
+    .dine-in {
+      width: 300px;
+      font-size: 23px;
+    }
+    .each-card {
+      width: 200px !important;
+    }
+    .each-card img {
+      width: 200px !important;
+    }
+    .sidebar {
+      padding: 0 1em;
+    }
+    .sidebar h3 {
+      font-size: 16px !important;
+    }
+    .sidebar-btn {
+      font-size: 14px;
+      width: 180px;
+      border-radius: 4px;
+    }
+    .padding-left {
+      padding-left: 1em !important;
+    }
+    .menu-list h3 {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 514px) {
+    .menu-main h1 {
+        font-size: 25px;
+        padding: 1em 0;
+      }
+      .menu-main h2 {
+        font-size: 20px;
+      }
+      .menu-main p {
+        font-size: 18px;
+        padding: 0 3em;
+      }
+    .promo img {
+      width: 260px;
+    }
+    .dine-in {
+      width: 240px;
+      font-size: 18px;
+    }
+    .each-card {
+      width: 160px !important;
+    }
+    .each-card img {
+      width: 190px !important;
+    }
+    .sidebar h3 {
+      font-size: 14px !important;
+    }
+    .sidebar-btn {
+      font-size: 12px;
+      width: 150px;
+      height: 40px;
+      border-radius: 2px;
+    }
+    .padding-left {
+      padding-left: 1em !important;
+    }
+    .menu-list h3 {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 444px) {
+    .menu-main h1 {
+        font-size: 22px;
+      }
+      .menu-main h2 {
+        font-size: 18px;
+      }
+      .menu-main p {
+        font-size: 16px;
+        padding: 0 2em;
+      }
+    .each-card {
+      width: 130px !important;
+    }
+    .each-card img {
+      width: 160px !important;
+    }
+    .sidebar h3 {
+      font-size: 12px !important;
+    }
+    .sidebar-btn {
+      font-size: 10px;
+      width: 120px;
+      height: 35px;
+    }
+    .padding-left {
+      padding-left: 0.5em !important;
+    }
+    .menu-list h3 {
+      font-size: 18px;
+    }
+  }

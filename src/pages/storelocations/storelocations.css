@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Jellee Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Jellee Roman"), url("Jellee-Roman.woff") format("woff");
+}
+.store-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.041)),
+    url(../../assets/bg-transparent.png);
+  padding: 3em 6em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.store-main h1 {
+  background-color: #cc0d2e;
+  border-radius: 10px;
+  width: 700px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 75px;
+  margin: .5em 0;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+}
+.store-main h1:hover,
+.store-main h1:focus,
+.store-main h1:active {
+  -webkit-animation-name: hvr-buzz-out;
+  animation-name: hvr-buzz-out;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.store-main section {
+    margin: 2em 0;
+}
+.store-main h3 {
+  font-family: Jellee Roman;
+  font-size: 45px;
+  letter-spacing: 3px;
+  color: #242323;
+  margin: 0;
+}
+.location-flex img {
+  margin: 1em;
+  border-radius: 5px;
+}
+.divider-loc{
+    width: 80%;
+    border-radius: 50px;
+    height: 3px;
+    background-color: #fa8003;
+}
+
+@media screen and (max-width: 768px) {
+    .store-main {
+        padding: 3em;
+    }
+    .store-main section {
+        margin: 2em 0;
+    }
+    .store-main h1 {
+        font-size: 50px;
+        width: 500px;
+    }
+    .store-main h3 {
+      font-size: 35px;
+    }
+    .location-flex img {
+      width: 500px;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .store-main {
+        padding: 2em;
+    }
+    .store-main h1 {
+        font-size: 40px;
+        width: 400px;
+    }
+    .store-main h3 {
+      font-size: 25px;
+    }
+    .location-flex img {
+      width: 350px;
+      height: auto;
+    }
+}
+@media screen and (max-width: 430px) {
+    .store-main h1 {
+        font-size: 30px;
+        width: 300px;
+    }
+    .store-main h3 {
+      font-size: 20px;
+    }
+    .location-flex img {
+      width: 280px;
+      height: auto;
+    }
+}

@@ -1,0 +1,115 @@
+.booknow-main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.041)),
+      url(../../assets/bg-transparent.png);
+    text-align: center;
+    padding: 3em 6em;
+  }
+.booknow-main h1 {
+    margin: 0;
+    color: #fff;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #cc0d2e;
+    font-weight: 800;
+    font-size: 35px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+  }
+  .booknow-main h1:hover,
+  .booknow-main h1:focus,
+  .booknow-main h1:active {
+    -webkit-animation-name: hvr-buzz-out;
+    animation-name: hvr-buzz-out;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+  
+  .hero-section {
+    display: flex;
+    margin: 3em 2em;
+    justify-content: center;
+    gap: 6em;
+  }
+  .img-section {
+    background: #ffea8a;
+    padding: 3em 9em;
+    border-radius: 10px;
+  }
+
+
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-submit-btn {
+    width: 200px;
+    height: 40px;
+    font-size: 1em;
+    background: #cc0d2e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+  }
+  .form-submit-btn:hover {
+    transition: ease-in-out 0.2s;
+    background: #ff4463;
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .modal-content {
+    color: #000;
+    font-size: 1.5em;
+  }
+  
+  .modal button {
+    background-color: #cc0d2e;
+    font-size: 0.8em;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+  }
+  .modal button:hover{
+    transition: ease-in-out 0.2s;
+    background: #ff4463;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-section {
+      flex-direction: row;
+    }
+  }
+  

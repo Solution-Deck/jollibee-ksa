@@ -1,0 +1,67 @@
+.contactus-main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.041)),
+    url(../../assets/bg-transparent.png);
+    padding: 3em 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contactus-main h1 {
+    color: #cc0d2e;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 0;
+}
+
+.contactus-main h3 {
+    font-weight: 500;
+    font-size: 30px;
+}
+.contactus-main img {
+    border-radius: 10px;
+}
+@media screen and (max-width: 1024px) {
+    .contactus-main h1 {
+        font-size: 60px;
+    }
+    .contactus-main h3 {
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .contactus-main img {
+        width: 550px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contactus-main h1 {
+        font-size: 40px;
+    }
+    
+    .contactus-main h3 {
+        font-weight: 500;
+        font-size: 28px;
+    }
+    .contactus-main img {
+        width: 300px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 430px) {
+    .contactus-main {
+        padding: 4em 1em;
+    }
+    .contactus-main h1 {
+        font-size: 25px;
+    }
+    
+    .contactus-main h3 {
+        font-size: 26px;
+    }
+    .contactus-main img {
+        width: 320px;
+        height: auto;
+    }
+}
